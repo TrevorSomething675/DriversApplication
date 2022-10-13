@@ -1,7 +1,7 @@
 ﻿using System.Data.SqlClient;
 using System.Configuration;
 
-namespace WindowsFormsApp1
+namespace DriversApplication
 {
     sealed class DataBase
     {

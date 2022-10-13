@@ -1,7 +1,7 @@
 ﻿
-namespace WindowsFormsApp1
+namespace DriversApplication
 {
-    partial class Form1
+    partial class MainForm
     {
         private System.ComponentModel.IContainer components = null;
         protected override void Dispose(bool disposing)
@@ -446,13 +446,13 @@ namespace WindowsFormsApp1
             this.tabControl1.Size = new System.Drawing.Size(1066, 483);
             this.tabControl1.TabIndex = 0;
             // 
-            // Form1
+            // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1066, 483);
             this.Controls.Add(this.tabControl1);
-            this.Name = "Form1";
+            this.Name = "MainForm";
             this.Text = "База данных";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.tabPage1.ResumeLayout(false);

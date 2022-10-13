@@ -3,7 +3,7 @@ using System.Data;
 using System.Windows.Forms;
 using System.Data.SqlClient;
 
-namespace WindowsFormsApp1
+namespace DriversApplication
 {
     enum RowState
     {
@@ -13,11 +13,11 @@ namespace WindowsFormsApp1
         ModifiedNew,
         Deleted
     }
-    public partial class Form1 : Form
+    public partial class MainForm : Form
     {
         DataBase dataBase = new DataBase();
         int selectedRow;
-        public Form1()
+        public MainForm()
         {
             InitializeComponent();
         }
