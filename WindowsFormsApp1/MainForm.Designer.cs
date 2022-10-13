@@ -72,7 +72,7 @@ namespace DriversApplication
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(1058, 457);
+            this.tabPage1.Size = new System.Drawing.Size(1264, 455);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Взаимодействие с базой данных";
             this.tabPage1.UseVisualStyleBackColor = true;
@@ -80,9 +80,9 @@ namespace DriversApplication
             // groupBox8
             // 
             this.groupBox8.Controls.Add(this.tableLayoutPanel3);
-            this.groupBox8.Location = new System.Drawing.Point(760, 262);
+            this.groupBox8.Location = new System.Drawing.Point(967, 264);
             this.groupBox8.Name = "groupBox8";
-            this.groupBox8.Size = new System.Drawing.Size(292, 64);
+            this.groupBox8.Size = new System.Drawing.Size(291, 63);
             this.groupBox8.TabIndex = 21;
             this.groupBox8.TabStop = false;
             this.groupBox8.Text = "Редактирование базы данных";
@@ -99,15 +99,15 @@ namespace DriversApplication
             this.tableLayoutPanel3.Name = "tableLayoutPanel3";
             this.tableLayoutPanel3.RowCount = 1;
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel3.Size = new System.Drawing.Size(286, 45);
+            this.tableLayoutPanel3.Size = new System.Drawing.Size(285, 44);
             this.tableLayoutPanel3.TabIndex = 20;
             // 
             // AddToBD
             // 
             this.AddToBD.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.AddToBD.Location = new System.Drawing.Point(146, 3);
+            this.AddToBD.Location = new System.Drawing.Point(145, 3);
             this.AddToBD.Name = "AddToBD";
-            this.AddToBD.Size = new System.Drawing.Size(137, 39);
+            this.AddToBD.Size = new System.Drawing.Size(137, 38);
             this.AddToBD.TabIndex = 0;
             this.AddToBD.Text = "Добавить в базу данных";
             this.AddToBD.UseVisualStyleBackColor = true;
@@ -118,11 +118,11 @@ namespace DriversApplication
             this.RedactData.Dock = System.Windows.Forms.DockStyle.Fill;
             this.RedactData.Location = new System.Drawing.Point(3, 3);
             this.RedactData.Name = "RedactData";
-            this.RedactData.Size = new System.Drawing.Size(137, 39);
+            this.RedactData.Size = new System.Drawing.Size(136, 38);
             this.RedactData.TabIndex = 19;
             this.RedactData.Text = "Редактировать данные";
             this.RedactData.UseVisualStyleBackColor = true;
-            this.RedactData.Click += new System.EventHandler(this.button5_Click);
+            this.RedactData.Click += new System.EventHandler(this.RedactData_Click);
             // 
             // label11
             // 
@@ -138,16 +138,16 @@ namespace DriversApplication
             this.NameFilter.Location = new System.Drawing.Point(98, 6);
             this.NameFilter.Multiline = true;
             this.NameFilter.Name = "NameFilter";
-            this.NameFilter.Size = new System.Drawing.Size(652, 23);
+            this.NameFilter.Size = new System.Drawing.Size(860, 23);
             this.NameFilter.TabIndex = 18;
             this.NameFilter.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // groupBox7
             // 
             this.groupBox7.Controls.Add(this.tableLayoutPanel1);
-            this.groupBox7.Location = new System.Drawing.Point(759, 332);
+            this.groupBox7.Location = new System.Drawing.Point(967, 330);
             this.groupBox7.Name = "groupBox7";
-            this.groupBox7.Size = new System.Drawing.Size(293, 116);
+            this.groupBox7.Size = new System.Drawing.Size(291, 125);
             this.groupBox7.TabIndex = 19;
             this.groupBox7.TabStop = false;
             this.groupBox7.Text = "Поиск и удаление из базы данных";
@@ -167,48 +167,48 @@ namespace DriversApplication
             this.tableLayoutPanel1.RowCount = 2;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(287, 97);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(285, 106);
             this.tableLayoutPanel1.TabIndex = 20;
             // 
             // HelperMain
             // 
             this.HelperMain.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.HelperMain.Location = new System.Drawing.Point(146, 51);
+            this.HelperMain.Location = new System.Drawing.Point(145, 56);
             this.HelperMain.Name = "HelperMain";
-            this.HelperMain.Size = new System.Drawing.Size(138, 43);
+            this.HelperMain.Size = new System.Drawing.Size(137, 47);
             this.HelperMain.TabIndex = 15;
             this.HelperMain.Text = "Быстрая помощь по заполнению и удалению";
             this.HelperMain.UseVisualStyleBackColor = true;
-            this.HelperMain.Click += new System.EventHandler(this.button1_Click);
+            this.HelperMain.Click += new System.EventHandler(this.HelperMain_Click);
             // 
             // DeleteDBnonid
             // 
             this.DeleteDBnonid.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.DeleteDBnonid.Location = new System.Drawing.Point(3, 51);
+            this.DeleteDBnonid.Location = new System.Drawing.Point(3, 56);
             this.DeleteDBnonid.Name = "DeleteDBnonid";
-            this.DeleteDBnonid.Size = new System.Drawing.Size(137, 43);
+            this.DeleteDBnonid.Size = new System.Drawing.Size(136, 47);
             this.DeleteDBnonid.TabIndex = 18;
             this.DeleteDBnonid.Text = "Удалить из базы данных";
             this.DeleteDBnonid.UseVisualStyleBackColor = true;
-            this.DeleteDBnonid.Click += new System.EventHandler(this.button4_Click);
+            this.DeleteDBnonid.Click += new System.EventHandler(this.DeleteDBnonid_Click);
             // 
             // SaveDB
             // 
             this.SaveDB.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.SaveDB.Location = new System.Drawing.Point(146, 3);
+            this.SaveDB.Location = new System.Drawing.Point(145, 3);
             this.SaveDB.Name = "SaveDB";
-            this.SaveDB.Size = new System.Drawing.Size(138, 42);
+            this.SaveDB.Size = new System.Drawing.Size(137, 47);
             this.SaveDB.TabIndex = 20;
             this.SaveDB.Text = "Сохранить изменения";
             this.SaveDB.UseVisualStyleBackColor = true;
-            this.SaveDB.Click += new System.EventHandler(this.button6_Click);
+            this.SaveDB.Click += new System.EventHandler(this.SaveDB_Click);
             // 
             // SearchOnPar
             // 
             this.SearchOnPar.Dock = System.Windows.Forms.DockStyle.Fill;
             this.SearchOnPar.Location = new System.Drawing.Point(3, 3);
             this.SearchOnPar.Name = "SearchOnPar";
-            this.SearchOnPar.Size = new System.Drawing.Size(137, 42);
+            this.SearchOnPar.Size = new System.Drawing.Size(136, 47);
             this.SearchOnPar.TabIndex = 23;
             this.SearchOnPar.Text = "Обновить базу данных";
             this.SearchOnPar.UseVisualStyleBackColor = true;
@@ -219,7 +219,7 @@ namespace DriversApplication
             this.groupBox4.Controls.Add(this.DataGrid_Добавить);
             this.groupBox4.Location = new System.Drawing.Point(3, 34);
             this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(750, 414);
+            this.groupBox4.Size = new System.Drawing.Size(955, 418);
             this.groupBox4.TabIndex = 17;
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Поля из базы данных";
@@ -233,7 +233,7 @@ namespace DriversApplication
             this.DataGrid_Добавить.Location = new System.Drawing.Point(3, 16);
             this.DataGrid_Добавить.Name = "DataGrid_Добавить";
             this.DataGrid_Добавить.ReadOnly = true;
-            this.DataGrid_Добавить.Size = new System.Drawing.Size(744, 395);
+            this.DataGrid_Добавить.Size = new System.Drawing.Size(949, 399);
             this.DataGrid_Добавить.TabIndex = 1;
             this.DataGrid_Добавить.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DataGrid_Добавить_CellClick);
             // 
@@ -241,9 +241,9 @@ namespace DriversApplication
             // 
             this.groupBox1.Controls.Add(this.label7);
             this.groupBox1.Controls.Add(this.tableLayoutPanel2);
-            this.groupBox1.Location = new System.Drawing.Point(759, 3);
+            this.groupBox1.Location = new System.Drawing.Point(964, 6);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(293, 253);
+            this.groupBox1.Size = new System.Drawing.Size(294, 258);
             this.groupBox1.TabIndex = 14;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Параметры";
@@ -289,13 +289,13 @@ namespace DriversApplication
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
-            this.tableLayoutPanel2.Size = new System.Drawing.Size(287, 234);
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(288, 239);
             this.tableLayoutPanel2.TabIndex = 0;
             // 
             // MaxSpdText
             // 
             this.MaxSpdText.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.MaxSpdText.Location = new System.Drawing.Point(146, 206);
+            this.MaxSpdText.Location = new System.Drawing.Point(147, 206);
             this.MaxSpdText.Name = "MaxSpdText";
             this.MaxSpdText.Size = new System.Drawing.Size(138, 20);
             this.MaxSpdText.TabIndex = 16;
@@ -303,7 +303,7 @@ namespace DriversApplication
             // CarName
             // 
             this.CarName.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.CarName.Location = new System.Drawing.Point(146, 177);
+            this.CarName.Location = new System.Drawing.Point(147, 177);
             this.CarName.Name = "CarName";
             this.CarName.Size = new System.Drawing.Size(138, 20);
             this.CarName.TabIndex = 6;
@@ -311,7 +311,7 @@ namespace DriversApplication
             // CarNumber
             // 
             this.CarNumber.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.CarNumber.Location = new System.Drawing.Point(146, 148);
+            this.CarNumber.Location = new System.Drawing.Point(147, 148);
             this.CarNumber.Name = "CarNumber";
             this.CarNumber.Size = new System.Drawing.Size(138, 20);
             this.CarNumber.TabIndex = 7;
@@ -322,14 +322,14 @@ namespace DriversApplication
             this.label5.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label5.Location = new System.Drawing.Point(3, 174);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(137, 29);
+            this.label5.Size = new System.Drawing.Size(138, 29);
             this.label5.TabIndex = 12;
             this.label5.Text = "Название машины";
             // 
             // PhoneText
             // 
             this.PhoneText.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.PhoneText.Location = new System.Drawing.Point(146, 119);
+            this.PhoneText.Location = new System.Drawing.Point(147, 119);
             this.PhoneText.Name = "PhoneText";
             this.PhoneText.Size = new System.Drawing.Size(138, 20);
             this.PhoneText.TabIndex = 5;
@@ -340,7 +340,7 @@ namespace DriversApplication
             this.label8.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label8.Location = new System.Drawing.Point(3, 203);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(137, 31);
+            this.label8.Size = new System.Drawing.Size(138, 36);
             this.label8.TabIndex = 17;
             this.label8.Text = "Максимальная скорость";
             // 
@@ -350,14 +350,14 @@ namespace DriversApplication
             this.label10.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label10.Location = new System.Drawing.Point(3, 0);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(137, 29);
+            this.label10.Size = new System.Drawing.Size(138, 29);
             this.label10.TabIndex = 22;
             this.label10.Text = "ID водителя (Вводить только при удалении)";
             // 
             // OtchestoText
             // 
             this.OtchestoText.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.OtchestoText.Location = new System.Drawing.Point(146, 90);
+            this.OtchestoText.Location = new System.Drawing.Point(147, 90);
             this.OtchestoText.Name = "OtchestoText";
             this.OtchestoText.Size = new System.Drawing.Size(138, 20);
             this.OtchestoText.TabIndex = 4;
@@ -368,14 +368,14 @@ namespace DriversApplication
             this.label6.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label6.Location = new System.Drawing.Point(3, 145);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(137, 29);
+            this.label6.Size = new System.Drawing.Size(138, 29);
             this.label6.TabIndex = 13;
             this.label6.Text = "Номер машины";
             // 
             // FamiliaText
             // 
             this.FamiliaText.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.FamiliaText.Location = new System.Drawing.Point(146, 61);
+            this.FamiliaText.Location = new System.Drawing.Point(147, 61);
             this.FamiliaText.Name = "FamiliaText";
             this.FamiliaText.Size = new System.Drawing.Size(138, 20);
             this.FamiliaText.TabIndex = 3;
@@ -383,7 +383,7 @@ namespace DriversApplication
             // NameText
             // 
             this.NameText.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.NameText.Location = new System.Drawing.Point(146, 32);
+            this.NameText.Location = new System.Drawing.Point(147, 32);
             this.NameText.Name = "NameText";
             this.NameText.Size = new System.Drawing.Size(138, 20);
             this.NameText.TabIndex = 2;
@@ -391,7 +391,7 @@ namespace DriversApplication
             // IdName
             // 
             this.IdName.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.IdName.Location = new System.Drawing.Point(146, 3);
+            this.IdName.Location = new System.Drawing.Point(147, 3);
             this.IdName.Name = "IdName";
             this.IdName.Size = new System.Drawing.Size(138, 20);
             this.IdName.TabIndex = 21;
@@ -402,7 +402,7 @@ namespace DriversApplication
             this.label1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label1.Location = new System.Drawing.Point(3, 29);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(137, 29);
+            this.label1.Size = new System.Drawing.Size(138, 29);
             this.label1.TabIndex = 8;
             this.label1.Text = "Имя";
             // 
@@ -412,7 +412,7 @@ namespace DriversApplication
             this.label2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label2.Location = new System.Drawing.Point(3, 58);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(137, 29);
+            this.label2.Size = new System.Drawing.Size(138, 29);
             this.label2.TabIndex = 9;
             this.label2.Text = "Фамилия";
             // 
@@ -422,7 +422,7 @@ namespace DriversApplication
             this.label3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label3.Location = new System.Drawing.Point(3, 87);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(137, 29);
+            this.label3.Size = new System.Drawing.Size(138, 29);
             this.label3.TabIndex = 10;
             this.label3.Text = "Отчество";
             // 
@@ -432,7 +432,7 @@ namespace DriversApplication
             this.label4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label4.Location = new System.Drawing.Point(3, 116);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(137, 29);
+            this.label4.Size = new System.Drawing.Size(138, 29);
             this.label4.TabIndex = 11;
             this.label4.Text = "Номер телефона";
             // 
@@ -443,14 +443,14 @@ namespace DriversApplication
             this.tabControl1.Location = new System.Drawing.Point(0, 0);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(1066, 483);
+            this.tabControl1.Size = new System.Drawing.Size(1272, 481);
             this.tabControl1.TabIndex = 0;
             // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1066, 483);
+            this.ClientSize = new System.Drawing.Size(1272, 481);
             this.Controls.Add(this.tabControl1);
             this.Name = "MainForm";
             this.Text = "База данных";
